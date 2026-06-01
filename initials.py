@@ -1,27 +1,27 @@
 # File: initials.py
-# Description: Printing my intials "MSM" in block letters using python
-# Assignment Number: 2
-
-#Name: Menye Senam
-#Student ID: 2425402306
-#Email: 2425402306@live.gctu.edu.gh
-#Grader:Augustus Buckman
-
-#On my honor,Menye Senam, this programming assignment is my own work
-#and I have not provided this code to any other student.
+# Description: Print out my initials M S M as large stylized block letters.
+# Assignment Number: 1
+#
+# Name: Augustus Buckman
+# STUDENT ID:  mds98123
+# Email: abuckman@gctu.edu.gh
+# Grader: Augustus
+#
+# On my honor, Augustus Buckman, this programming assignment is my own work
+# and I have not provided this code to any other student.
 
 
 def main():
-    #A written code in python to print my intials "MSM"
+    # Print the small initials line with three periods and "MSM"
     print()
     print("...MSM")
     print()
-
+    
     # Large period made of 4 asterisks
     period_row = "****"
     three_dots = "..."
-
-    # Printing the letter "M" by using 12 characters wide and 10 high
+    
+    # Letter 'M' - 12 chars wide, 10 chars high (stylish block M)
     m0 = "MM......MM."
     m1 = "MMM....MMM."
     m2 = "MMMM..MMMM."
@@ -32,21 +32,20 @@ def main():
     m7 = "MM......MM."
     m8 = "MM......MM."
     m9 = "MM......MM."
-
-    #Printing the letter "S" by using 12 characters wide and 10 high
+    
+    # Letter 'S' - 12 chars wide, 10 chars high (stylish block S)
     s0 = ".SSSSSSSS.."
-    s1 = "SS......SS."
+    s1 = "SS.....SS."
     s2 = "SS........"
     s3 = ".SSSSSSSS.."
     s4 = "........SS."
     s5 = "........SS."
     s6 = "SS......SS."
     s7 = "SS......SS."
-    s8 = ".SSSSSSSS.."
-    s9 = ".........."
-
-
-    # Printing the 10 rows - each row combines the letters using the concatenator "+": ... + M + **** + ... + S + **** + ... + M
+    s8 = "SS......SS."
+    s9 = ".SSSSSSSS.."
+    
+    # Print all 10 rows - each row combines: ... + M + **** + ... + S + **** + ... + M
     # Row 0
     line0 = three_dots + m0 + period_row + three_dots + s0 + period_row + three_dots + m0
     print(line0)
@@ -77,8 +76,8 @@ def main():
     # Row 9
     line9 = three_dots + m9 + period_row + three_dots + s9 + period_row + three_dots + m9
     print(line9)
-
-    # To print a blank line after printing the intials
+    
+    # Print a blank line after the large initials
     print()
 
 
