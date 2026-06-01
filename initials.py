@@ -2,12 +2,12 @@
 # Description: Print out my initials M S M as large stylized block letters.
 # Assignment Number: 1
 #
-# Name: Augustus Buckman
-# STUDENT ID:  mds98123
-# Email: abuckman@gctu.edu.gh
+# Name: Menye Senam
+# STUDENT ID: 2425402306
+# Email: 2425402306@live.gctu.edu.gh
 # Grader: Augustus
 #
-# On my honor, Augustus Buckman, this programming assignment is my own work
+# On my honor, Menye Senam, this programming assignment is my own work
 # and I have not provided this code to any other student.
 
 
